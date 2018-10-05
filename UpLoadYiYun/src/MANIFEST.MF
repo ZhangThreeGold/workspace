@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Main-Class: test.Test 
+Class-Path: asm-3.3.jar asm-commons-3.3.jar 
+  asm-tree-3.3.jar commons-beanutils-1.8.0.jar 
+  commons-fileupload-1.3.2.jar commons-io-2.2.jar 
+  commons-lang-2.4.jar javassist-3.11.0.GA.jar 
+  ognl-3.0.19.jar guava-19.0.jar log4j.jar 
+  gson-2.8.2.jar happy-dns-java-0.1.6.jar 
+  junit-4.12.jar okhttp-3.9.1.jar okio-1.13.0.jar 
+  qiniu-java-sdk-7.2.10.jar json.jar javax.servlet-api-4.0.1.jar
+  aliyun-sdk-oss-2.8.2.jar commons-logging-1.2.jar
+  hamcrest-core-1.1.jar jdom-1.1.jar httpclient-4.4.1.jar 
+  httpcore-4.4.1.jar commons-codec-1.9.jar commons-net-3.3.jar 
+  aliyun-sdk-oss-2.8.2-javadoc.jar aliyun-sdk-oss-2.8.2-sources.jar 
+  aws-java-sdk-core-1.11.238.jar aws-java-sdk-s3-1.11.238-sources.jar 
+  aws-java-sdk-s3-1.11.238.jar struts2-core-2.3.28.1.jar 
+  jackson-all-1.9.7.jar jackson-annotations-2.8.0.jar jackson-core-2.8.10.jar 
+  jackson-databind-2.8.10.jar joda-time-2.9.9.jar dom4j-1.6.1.jar
+  
+  
+
+

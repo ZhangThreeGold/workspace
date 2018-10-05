@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<updownloadflag>
+		<value>C</value><!-- A 阿里云 ,B 七牛 ,C 易云, D FTP -->
+	</updownloadflag>
+	<Dateflag>
+		<value>D</value><!-- 时间字符串(默认八位 ) Y 四位 例如：2018 ,M 六位 例如：201802 ,D 八位 例如：20180208   存放上传服务器后的新名字由   当前时间+uuid+后缀名 -->
+	</Dateflag>
+	
+	<aliyun>
+		<endpoint></endpoint><!-- 域名 -->
+		<ACCESS_KEY></ACCESS_KEY><!-- 密钥 -->
+		<SECRET_KEY></SECRET_KEY><!-- 密钥 -->
+		<BUCKET></BUCKET><!-- 空间 -->
+		<loaclfilePath>E:/alidownload</loaclfilePath><!-- 下载文件到本地文件夹的路径 -->
+	</aliyun>
+	
+	<qiniu>
+		<endpoint>http://opctagbdm.bkt.clouddn.com</endpoint><!-- 域名 -->
+		<ACCESS_KEY>AiURfAqvv4MbxOOZlttkEZhGnwNZduFM_yOik2EH</ACCESS_KEY>
+		<SECRET_KEY>5WfUmQfx8CYXNkxyJUAbwfnBPAmIoq4WxLPA2wgT</SECRET_KEY>
+		<BUCKET>image</BUCKET>		
+	</qiniu>
+	
+	<eayun>
+		<endpoint>eos.eayun.com</endpoint><!-- 域名 -->
+		<ACCESS_KEY>4TBWFPEIW5J02I59P5YW</ACCESS_KEY>
+		<SECRET_KEY>CI887ON3tF8z8qJ6kFx2d497myuWWpUv0vr07Y5T</SECRET_KEY>
+		<BUCKET>resource</BUCKET>
+		<CHECK>S3SignerType</CHECK>	<!-- 设置使用V2认证-->	
+	</eayun>
+
+	<ftp>
+		<URL>114.215.99.8</URL><!--FTP地址  -->
+		<PORT>21</PORT><!-- FTP端口号 -->
+		<USERNAME>lyshftp</USERNAME><!-- FTP用户名	 -->
+		<PASSWORD>lyshpwssod</PASSWORD><!-- FTP密码-->
+		<SERVICEPATH>/ZNSQ/</SERVICEPATH><!-- FTP默认保存路径-->
+	</ftp>
+
+</root>
