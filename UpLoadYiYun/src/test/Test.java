@@ -19,7 +19,7 @@ public class Test {
 		//String key =(String) args[2];
 		String way="up";
 		File file =new File("C:/Users/zx/Desktop/项目资料/视频图片/图片/12345.jpg");
-		String key ="file/20180319/c8dd4b166b1b4b4ebe21b98c7b87ac0d.xlsx";
+		String key ="file/c8dd4b166b1b4b4ebe21b98c7b87ac0d.xlsx";
 		
 		if (way.equals("up")){
 		  new Test().upLoad(file,key);
